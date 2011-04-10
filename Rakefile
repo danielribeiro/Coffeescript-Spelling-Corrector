@@ -34,9 +34,14 @@ task :compile_watch do
 end
 
 desc "Forces the compilation of all coffeescripts and start watching them"
-task :compile do
+task :force_compile do
   compileall 'lib', 'libjs', true
   system "watchr", 'compileall.rb'
+end
+
+desc "Just compiles all coffeescripts"
+task :compile do
+  compileall 'lib', 'libjs', true
 end
 
 desc "runs unit tests"
