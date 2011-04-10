@@ -23,6 +23,8 @@ Using coffee command line:
     $ coffee lib/spellCheck.coffee
 
 
+More Info
+----
 
 More about it [here](http://metaphysicaldeveloper.wordpress.com/2011/03/31/354/).
 
